@@ -14,6 +14,8 @@ open System.Runtime.CompilerServices
 
 [<assembly: AssemblyVersion("1.0.0.0")>]
 
+[<assembly: Android.Runtime.ResourceDesigner("FullElmishDemo.Droid.Resources", IsApplication=true)>]
+
 //[<assembly: AssemblyDelaySign(false)>]
 //[<assembly: AssemblyKeyFile("")>]
 

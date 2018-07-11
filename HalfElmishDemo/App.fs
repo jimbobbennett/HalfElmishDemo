@@ -1,6 +1,7 @@
 ﻿namespace HalfElmishDemo
 
 open Elmish.XamarinForms
+open Elmish.XamarinForms.StaticViews
 open Xamarin.Forms
 
 type App() =
@@ -9,7 +10,6 @@ type App() =
     do
         let page = Program.mkSimple MainPage.init MainPage.update MainPage.view
                     |> Program.withConsoleTrace
-                    |> Program.withStaticView
-                    |> Program.run
+                    |> Program.runWithStaticView
 
         base.MainPage <- page.InitialMainPage

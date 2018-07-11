@@ -48,9 +48,6 @@
     <Reference Include="Xamarin.Android.FSharp.ResourceProvider.Runtime">
       <HintPath>..\packages\Xamarin.Android.FSharp.ResourceProvider.1.0.0.25\lib\Xamarin.Android.FSharp.ResourceProvider.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Elmish.XamarinForms">
-      <HintPath>..\packages\Elmish.XamarinForms.0.7.0\lib\netstandard2.0\Elmish.XamarinForms.dll</HintPath>
-    </Reference>
     <Reference Include="FSharp.Core">
       <HintPath>..\packages\FSharp.Core.4.5.0\lib\netstandard1.6\FSharp.Core.dll</HintPath>
     </Reference>
@@ -127,6 +124,9 @@
       <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="Elmish.XamarinForms">
+      <HintPath>..\packages\Elmish.XamarinForms.0.12.8\lib\netstandard2.0\Elmish.XamarinForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.fs" />

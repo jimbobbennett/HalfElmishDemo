@@ -82,9 +82,6 @@
     <Reference Include="System.Core" />
     <Reference Include="mscorlib" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Elmish.XamarinForms">
-      <HintPath>..\packages\Elmish.XamarinForms.0.7.0\lib\netstandard2.0\Elmish.XamarinForms.dll</HintPath>
-    </Reference>
     <Reference Include="FSharp.Core">
       <HintPath>..\packages\FSharp.Core.4.5.0\lib\netstandard1.6\FSharp.Core.dll</HintPath>
     </Reference>
@@ -101,6 +98,9 @@
       <HintPath>..\packages\Xamarin.Forms.3.1.0.583944\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="Elmish.XamarinForms">
+      <HintPath>..\packages\Elmish.XamarinForms.0.12.8\lib\netstandard2.0\Elmish.XamarinForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
